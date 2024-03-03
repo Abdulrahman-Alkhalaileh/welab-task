@@ -52,11 +52,11 @@ const TodoForm = () => {
                                 onChange={handleChange}
                                 onClick={()=> newTodoTitle.length<4? setValidation(true): setValidation(false)}
                                 sx={{
-                                    '& .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline':{
-                                        borderColor: theme=='dark'? 'white' :'black'
+                                    '& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                                        borderColor: theme === 'dark' ? 'white' : 'black'
                                     },
-                                    '& .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input':{
-                                        color: theme=='dark'? 'white' : 'black'
+                                    '& .MuiOutlinedInput-input': {
+                                        color: theme === 'dark' ? 'white' : 'black'
                                     }
                                 }}
                             />

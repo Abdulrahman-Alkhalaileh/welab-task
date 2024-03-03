@@ -55,11 +55,11 @@ const TodoCard: React.FC <{todo: Todo,setFilteredTodos: any}> = ({todo,setFilter
                         onChange={handleUpdateTodoTitle}
                         // focused
                         sx={{
-                            '& .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline':{
-                                borderColor: theme=='dark'? 'white' :'black'
+                            '& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                                borderColor: theme === 'dark' ? 'white' : 'black'
                             },
-                            '& .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root':{
-                                color: theme=='dark'? 'white' : 'black'
+                            '& .MuiOutlinedInput-root': {
+                                color: theme === 'dark' ? 'white' : 'black'
                             }
                         }}
                         />
