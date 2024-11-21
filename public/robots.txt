@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://abdulrahman-alkhalaileh-welab-todo.netlify.app/
+
+# Sitemaps
+Sitemap: https://abdulrahman-alkhalaileh-welab-todo.netlify.app/sitemap.xml
